@@ -1,6 +1,19 @@
 /* Global Layout Set-up */
 
+/* Extra-fonts: font-family: 'Dancing Script', cursive; */
  
+
+
+header {
+  text-align: center;
+  background: linear-gradient(45deg,#33CAFF, transparent 90%), url('http://placeimg.com/640/480/tech/sepia') no-repeat top center ;
+  background-size: cover;
+  box-shadow:6px 5px 3px rgb(0,0,0,.1 ) ;
+  
+
+ 
+  
+}
   
 body {
   margin: 0;
@@ -8,6 +21,7 @@ body {
   font: 1em/2 "Lucida Grande, Optima,serif";
   background: #dfdcd5;
 }
+
 
 
 /* Link Styles */
@@ -32,35 +46,30 @@ a:hover {
 /* Section Styles */
 
 .main-nav {
+  
   width: 100%;
   background: black;
-  min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: 700;
-  list-style-type: none;
-  margin: -21 auto;
-  padding: 0;
-  height: 20px;
+  list-style: none;
+  overflow: auto;
+  
+ 
 }
 
-.nav .name {
 
-    display: block;
-    margin: -20px 547px 0px -23px;
-    padding: 0px 300px 2px 2px;
-
-
-    color: white;
-}
 .nav li {
-  padding: 5px 10px 10px 10px;
+
+  float: right;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  
 }
+li::before {
+  content: "•"; 
+  padding-right: 8px;
+  color: white; 
+}
+
+
 .nav a {
   transition: all .5s;
 }
@@ -68,16 +77,7 @@ a:hover {
   color: white
 }
 
-header {
-  text-align: center;
-  background: linear-gradient(45deg,#33CAFF, transparent 90%), url('http://placeimg.com/640/480/tech/sepia') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
-header {
-  line-height: 1em;
-}
+
  .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -87,7 +87,12 @@ header {
   transition: all .5s;
   box-shadow: 6px 5px 3px rgb(0,0,0,.1 );
 }
- 
+ .tag-name {
+
+  margin-bottom: -25px;
+  text-shadow:  5px 3px rgb(0,0,0,.1 ) ;
+  font-family: 'Dancing Script', cursive;
+ }
 
 .tag {
   
@@ -97,12 +102,13 @@ header {
   margin: 10px auto;
 } 
 
+
 .name {
 
   font-size: 2em;
-  color:rgba(0, 0, 0, 0.363);
-  text-shadow: 6px 5px 3px rgb(0,0,0,.2 );
- 
+  color:white;
+  
+  
 }
 .location {
   
@@ -192,7 +198,7 @@ a.social:hover {
 }
 
 /* Styles for larger screens */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 500px) {
   
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -203,14 +209,12 @@ a.social:hover {
       margin: 0 auto;
   }
 
-  header {
-    min-height: 470px;
+  .card {
+
+    width: 100%;
+    
   }
 
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
 
 
   main {
@@ -221,19 +225,23 @@ a.social:hover {
     line-height: 1.6em;
   }
 
+
   footer {
 
     text-align: center;
     font-size: 1.3em;
     max-width: 1200px;
+    
     margin: 40px auto;
   }
-/* animations*/
+
+  /* animations*/
 
  .style-on {
 
   background-color: lightcoral;
   animation: pulse 10s infinite;
+  box-shadow: 6px 5px 3px rgb(0,0,0,.1 );
   
  }
  @keyframes pulse {
@@ -274,5 +282,3 @@ a.social:hover {
   transform: translate(50%,0%);
 }
 
-
-}

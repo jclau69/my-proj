@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/* style*/
+
+body {
+
+    background: #dfdcd5;
+}
+
+header {
+
+    background: linear-gradient(45deg,#33CAFF, transparent 90%), url("images/placeimg_640_480_arch.jpg") no-repeat top center ;
+  background-size: cover;
+  box-shadow:6px 5px 3px rgb(0,0,0,.1 ) ;
+  margin: 20px; 
+  
+  
+}
+
+a {
+    color: yellow;
+
+}
+
+a:link {
+
+    color: violet;
+    
+}
+
+a:visited {
+
+    color: green;
+}
+
+a:hover {
+
+    color: red;
+}
+h1 {
+
+    color: white;
+    
+}
+
+.main-nav {
+    width: 100%;
+    background: black;
+    overflow: auto;
+    
+}
+
+
+.nav {
+
+    margin-right: 10px;
+}
+.nav li {
+
+    
+    padding: 10px;
+}
+
+div {
+
+    margin-bottom: 35px;
+}
+div h1 {
+
+    text-align: center;
+}
+div ul {
+
+    float: right;
+}
+
+article {
+
+    text-align: center;
+
+}
+.col {
+width: 40%;
+margin: 80px 30px 31px 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    display: inline-block;
+    background: #fff;
+    border-radius: 20px;
+    margin: 80px 30px 31px 118px;
+    box-shadow: 6px 5px 3px rgb(0,0,0,.1 );
+}
+
+.centerAll {
+
+    display: flex; 
+      max-width: 1440px;
+
+    justify-content: space-between;
+      margin: 0 96px 0 0;
+}
+
+li::before {
+    content: "•"; 
+    padding-right: 8px;
+    color: white; 
+  }
+/* Styles for larger screens */
+@media screen and (min-width: 500px) {
+  
+    .col {
+
+        width: 100%;
+        
+      }
+
+      .header {
+
+        width: 100%;
+      }
+}

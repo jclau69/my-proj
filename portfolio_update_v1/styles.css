@@ -3,7 +3,8 @@
 /* Extra-fonts: 
 
 font-family: 'Dancing Script', cursive;
-"Lucida Grande, Optima,serif" */
+"Lucida Grande, Optima,serif" ,
+font-family: 'Alegreya Sans SC', sans-serif;*/
  
 * {
 
@@ -161,9 +162,10 @@ li::before {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 20px;
   transition: all .5s;
   box-shadow: 6px 5px 3px rgb(0,0,0,.1 );
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 
@@ -263,21 +265,8 @@ justify-content: space-around;
       margin: 0 auto;
   }
 
-  .card {
+  
 
-    width: 100%;
-    
-  }
-
-
-
-  main {
-    padding-top: 20px;
-  }
-
-  main p {
-    line-height: 1.6em;
-  }
 
 
   footer {

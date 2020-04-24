@@ -200,7 +200,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: 0.5rem;
-  font-weight: 300px;
+  font-weight: 700;
 }
 
 footer ul {
@@ -247,7 +247,7 @@ a.social:hover {
 .icon {
 
   font-size: 0.3em;
-  font-weight: 300px;
+  font-weight: 500;
   margin-top: -35px;
 }
 
@@ -325,7 +325,13 @@ justify-content: space-around;
 
   transform: translate(0%,-50%);
 }
-100%{
+100% {
   transform: translate(50%,0%);
+
+
+
 }
+
+
+
 

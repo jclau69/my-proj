@@ -92,6 +92,7 @@ article {
 
 }
 .col {
+    line-height: 1.6rem;
     margin: 80px 30px 31px 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
@@ -125,7 +126,7 @@ li::before {
   
     .col {
 
-        width: 100%;
+        width: 90%;
         
       }
 
@@ -135,8 +136,8 @@ li::before {
       }
       .centerAll {
 
+        max-width: 80rem;
         display: flex; 
-          max-width: 64rem;
     justify-content: space-around;
           margin: 0 auto;
     }

@@ -98,7 +98,6 @@ article {
 }
 .col {
     line-height: 1.6rem;
-    margin: 33px auto;
     max-width: 540px;
     text-align: left;
     background: #fff;
@@ -131,7 +130,7 @@ li::before {
     
 .col {
 
-    margin: 10px;
+    margin: 5%;
 }
       .header {
 

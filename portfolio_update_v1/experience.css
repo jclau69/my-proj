@@ -49,6 +49,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+
+    margin-left: 35px;
+}
+
 p {
 
     text-indent: 2.3rem;
@@ -93,9 +98,8 @@ article {
 }
 .col {
     line-height: 1.6rem;
-    margin: 80px 30px 31px 30px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
+    margin: 33px auto;
+    max-width: 540px;
     text-align: left;
     background: #fff;
     border-bottom: 4px solid #ccc;
@@ -124,11 +128,7 @@ li::before {
 
 @media screen and (min-width: 500px) {
   
-    .col {
-
-        width: 90%;
-        
-      }
+    
 
       .header {
 
@@ -136,7 +136,7 @@ li::before {
       }
       .centerAll {
 
-        max-width: 80rem;
+         max-width: 100%;;
         display: flex; 
     justify-content: space-around;
           margin: 0 auto;
@@ -144,7 +144,7 @@ li::before {
 
     span {
 
-        font-size: 5rem; 
+        font-size: 6rem; 
         color:rgb(255, 94, 0);
         display: inline-block;
         float: left;

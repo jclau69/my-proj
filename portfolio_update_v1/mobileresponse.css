@@ -43,7 +43,8 @@
 
     
     .flex {
-        display: column;
+        margin: 3rem;
+        padding: 2rem;
 
     }
 

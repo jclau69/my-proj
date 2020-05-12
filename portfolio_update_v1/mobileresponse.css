@@ -40,6 +40,16 @@
 }
 
 @media screen and (min-width: 500px) {
+
+    
+    .flex {
+        display: column;
+
+    }
+
+}
+
+@media screen and (min-width: 769px) {
   
 
     .flex {

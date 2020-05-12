@@ -159,7 +159,7 @@ li::before {
   margin: 80px 30px 31px 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 20px;
@@ -192,6 +192,8 @@ ul.skills {
 }
 
 footer {
+
+  text-align: center;
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
@@ -254,29 +256,6 @@ a.social:hover {
 /* Styles for larger screens */
 
 
-@media screen and (min-width: 500px) {
-  
-
-  .flex {
-        
-      display: flex; 
-      max-width: 64rem;
-justify-content: space-around;
-      margin: 0 auto;
-  }
-
-  
-
-
-
-  footer {
-
-    text-align: center;
-    font-size: 1.3em;
-    max-width: 95%;
-    
-    margin: 40px auto;
-  }    
 
 
   /* animations*/
@@ -332,6 +311,6 @@ justify-content: space-around;
 }
 }
 
-}
+
 
 
